@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -24,10 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyApp.Models\MyApp.Models.csproj" />
-    <ProjectReference
-      Include="..\RandomTestDataGenerator\RandomTestDataGenerator.csproj"
-      OutputItemType="Analyzer"
-      ReferenceOutputAssembly="false"/>
+    <ProjectReference Include="..\RandomTestDataGenerator\RandomTestDataGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
 
 </Project>
