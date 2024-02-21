@@ -18,6 +18,7 @@
     <Authors>David Elliott</Authors>
     <Company>Webbert Solutions, LLC</Company>
     <Description>A source code generator for creating mother objects for use in creating test code</Description>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
   </PropertyGroup>
 
   <PropertyGroup>
